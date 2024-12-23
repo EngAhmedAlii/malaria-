@@ -13,7 +13,7 @@ import tensorflow as tf
 from PIL import Image
 
 # Load the trained model
-model = tf.keras.models.load_model('malaria_model.h5')  # تأكد من وجود الملف الصحيح
+model = tf.keras.models.load_model('malaria_model93%.h5')  # تأكد من وجود الملف الصحيح
 
 # Define the class labels
 class_labels = {
